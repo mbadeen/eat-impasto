@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'industry-bold';
+  src: url('../assets/fonts/industry-bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'industry-book';
+  src: url('../assets/fonts/industry-book.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'roboto-regular';
+  src: url('../assets/fonts/roboto-regular.ttf') format('truetype');
+}

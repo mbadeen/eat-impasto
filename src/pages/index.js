@@ -1,5 +1,9 @@
-import { h1 } from './index.module.css';
+import Layout from "../components/Layout";
 
-const Home = () => <h1 className={h1}>Gatsby Home!</h1>
+const Home = () => (
+  <Layout pageTitle="Impasto">
+    <h1>Home</h1>
+  </Layout>
+);
 
-export default Home
+export default Home;

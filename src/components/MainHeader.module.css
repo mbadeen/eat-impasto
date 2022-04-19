@@ -1,0 +1,11 @@
+.header {
+	align-items: center;
+	background-color: var(--black);
+	display: flex;
+	justify-content: space-between;
+	padding: 0 1rem;
+}
+
+.img {
+	width: 3rem;
+}

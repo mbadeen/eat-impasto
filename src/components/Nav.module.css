@@ -1,0 +1,16 @@
+.link {
+	color: var(--white);
+	font-family: var(--alt-font);
+	padding: 1.5rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.4s ease;
+}
+
+.link:hover {
+	background-color: #191919;
+}
+
+.nav {
+	display: flex;
+}

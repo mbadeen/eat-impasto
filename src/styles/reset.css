@@ -1,0 +1,39 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+	font-size: 93.75%;
+	/* font-size: 87.5%; */
+}
+
+body {
+  font-family: var(--default-font);
+}
+
+@media (min-width: 576px) {
+  html {
+		font-size: 93.75%;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+    font-size: 106.25%;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 112.5%;
+  }
+}

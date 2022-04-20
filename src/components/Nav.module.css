@@ -1,14 +1,17 @@
 .link {
+	align-items: center;
 	color: var(--white);
+	display: flex;
+	height: 4.75rem;
 	font-family: var(--alt-font);
-	padding: 1.5rem;
+	padding: 0 1.25rem;
 	text-decoration: none;
 	text-transform: uppercase;
-	transition: all 0.4s ease;
+	transition: all 0.3s ease;
 }
 
 .link:hover {
-	background-color: #191919;
+	background-color: #1f1f1f;
 }
 
 .nav {

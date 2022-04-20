@@ -1,0 +1,15 @@
+.section {
+	padding: 2rem;
+}
+
+.img {
+	display: block;
+	margin: 0 auto;
+	padding: 2rem 0;
+	width: 8rem;
+}
+
+.h1 {
+	text-align: center;
+	text-transform: uppercase;
+}

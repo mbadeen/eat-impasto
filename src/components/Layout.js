@@ -1,15 +1,18 @@
 import PropTypes from "prop-types";
 
+import Hero from "./Hero";
 import MainHeader from "./MainHeader";
-import Container from "./Container";
+
+import { main } from "./Layout.module.css";
 
 const Layout = ({ pageTitle, children }) => (
   <>
+    <title>{pageTitle}</title>
     <MainHeader />
-    <Container>
-      <title>{pageTitle}</title>
-      <main>{children}</main>
-    </Container>
+    <main className={main}>
+      <Hero />
+      {children}
+    </main>
   </>
 );
 

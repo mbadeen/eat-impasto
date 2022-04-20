@@ -1,0 +1,21 @@
+.header {
+	background-color: var(--black-01);
+	margin-top: 4.75rem;
+	padding: 4rem;
+	position: relative;
+	overflow: hidden;
+}
+
+.img {
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	z-index: 99;
+}
+
+.logo_red {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50%;
+}

@@ -1,8 +1,9 @@
 import Layout from "../components/Layout";
+import WelcomeSection from "../components/WelcomeSection";
 
 const Home = () => (
   <Layout pageTitle="Impasto">
-    <h1>Home</h1>
+    <WelcomeSection />
   </Layout>
 );
 

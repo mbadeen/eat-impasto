@@ -1,6 +1,5 @@
-// import Container from "./Container";
 import Nav from "./Nav";
-import logo from "../assets/img/brandmark_red.png";
+import logo from "../assets/img/logo-red.png";
 
 import { header, img } from "./MainHeader.module.css";
 

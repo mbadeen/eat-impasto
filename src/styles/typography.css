@@ -1,17 +1,17 @@
 :root {
   --headings-font: industry-bold, helvetica, arial, sans-serif;
   --default-font: roboto-regular, helvetica, arial, sans-serif;
-	--alt-font: industry-book, helvetica, arial, sans-serif;
+  --alt-font: industry-book, helvetica, arial, sans-serif;
 }
 
 h1,
 h2,
 h3 {
-	color: var(--red);
+  color: var(--red);
   font-family: var(--headings-font);
   font-weight: 700;
   margin: 0;
-	padding: 2rem 0;
+  padding: 2rem 0;
 }
 
 h1 {
@@ -40,7 +40,6 @@ textarea {
 }
 
 p {
-	line-height: 1.6rem;
-	padding-bottom: 2rem;
-
+  line-height: 1.75rem;
+  padding-bottom: 1.25rem;
 }

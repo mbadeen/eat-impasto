@@ -2,14 +2,15 @@ import logo from "../assets/img/logo-red.png";
 
 import Container from "./Container";
 
-import { section, img, h1 } from "./WelcomeSection.module.css";
+import { section, img } from "./WelcomeSection.module.css";
 
 const WelcomeSection = () => (
-  <Container>
-    <section className={section}>
-      <header>
-        <h1 className={h1}>Welcome to Impasto!</h1>
-      </header>
+  <section className={section}>
+    <Container>
+      {/* <header>
+			TODO: Add h1 class back in import
+        <h1 className={h1}>Welcome!</h1>
+      </header> */}
       <article>
         <p>
           The Italian term 'Impasto' translates in English to 'Dough'. We chose
@@ -27,8 +28,8 @@ const WelcomeSection = () => (
       <footer>
         <img className={img} src={logo} alt="" />
       </footer>
-    </section>
-  </Container>
+    </Container>
+  </section>
 );
 
 export default WelcomeSection;

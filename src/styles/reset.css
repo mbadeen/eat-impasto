@@ -2,12 +2,12 @@
 *:before,
 *:after {
   box-sizing: border-box;
-	letter-spacing: 1px;
+  letter-spacing: 1px;
   margin: 0;
 }
 
 html {
-	font-size: 93.75%;
+  font-size: 93.75%;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
 }
 
 img {
-	width: 100%;
+  width: 100%;
 }
 
 @media (min-width: 768px) {

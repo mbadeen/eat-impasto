@@ -1,15 +1,16 @@
 .section {
-	padding: 2rem;
+  background-color: var(--gray);
+  padding: 4rem 0;
 }
 
 .img {
-	display: block;
-	margin: 0 auto;
-	padding: 2rem 0;
-	width: 8rem;
+  display: block;
+  margin: 0 auto;
+  padding-top: 2rem;
+  width: 8rem;
 }
 
 .h1 {
-	text-align: center;
-	text-transform: uppercase;
+  text-align: center;
+  text-transform: uppercase;
 }

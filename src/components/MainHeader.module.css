@@ -1,17 +1,21 @@
+.header,
+.link {
+  display: flex;
+}
+
 .header {
-	align-items: center;
-	background-color: var(--black-01);
-	box-shadow: 0 1px 8px 0 rgb(0 0 0 / 20%), 0 3px 4px 0 rgb(0 0 0 / 14%),
-	0 3px 3px -2px rgb(0 0 0 / 12%);
-	display: flex;
-	justify-content: space-between;
-	padding: 0 1rem;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	z-index: 999;
+  align-items: center;
+  background-color: var(--black-01);
+  box-shadow: 0 1px 8px 0 rgb(0 0 0 / 20%), 0 3px 4px 0 rgb(0 0 0 / 14%),
+    0 3px 3px -2px rgb(0 0 0 / 12%);
+  justify-content: space-between;
+  padding: 0 1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
 }
 
 .img {
-	width: 3rem;
+  width: 3rem;
 }

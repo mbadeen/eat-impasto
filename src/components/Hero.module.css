@@ -21,6 +21,10 @@
 }
 
 @media (min-width: 768px) {
+  .header {
+    padding: 3rem;
+  }
+
   .logo_red {
     right: -10rem;
     top: -5rem;

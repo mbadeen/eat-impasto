@@ -1,0 +1,16 @@
+.button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: grid;
+  gap: 8px;
+  grid-template-rows: 1.5px 1.5px 1.5px;
+  padding: 0;
+  width: 34px;
+}
+
+.span {
+  background-color: var(--white);
+  height: 1.5px;
+  width: 100%;
+}

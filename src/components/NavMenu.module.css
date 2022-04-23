@@ -1,0 +1,21 @@
+.container {
+  background-color: var(--black-01);
+  bottom: 0;
+  display: flex;
+  right: 0;
+  position: fixed;
+  top: 4rem;
+  z-index: 200;
+  width: 100%;
+  /* transition: width 0.8s ease; */
+}
+
+/* .open {
+  visibility: visible;
+  width: 100%;
+}
+
+.close {
+  visibility: hidden;
+  width: 0;
+} */

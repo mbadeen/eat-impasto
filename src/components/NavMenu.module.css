@@ -1,16 +1,18 @@
-.container {
+.container,
+.open,
+.close {
   background-color: var(--black-01);
   bottom: 0;
   display: flex;
-  right: 0;
+  overflow-y: auto;
   position: fixed;
+  right: 0;
   top: 4rem;
+  transition: all 0.5s ease;
   z-index: 200;
-  width: 100%;
-  /* transition: width 0.8s ease; */
 }
 
-/* .open {
+.open {
   visibility: visible;
   width: 100%;
 }
@@ -18,4 +20,4 @@
 .close {
   visibility: hidden;
   width: 0;
-} */
+}

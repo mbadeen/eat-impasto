@@ -2,15 +2,61 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
-  display: grid;
-  gap: 8px;
-  grid-template-rows: 1.5px 1.5px 1.5px;
+  display: flex;
+  flex-direction: column;
+  /* gap: 8px;
+  grid-template-rows: 2px 2px 2px; */
   padding: 0;
-  width: 34px;
 }
 
 .span {
   background-color: var(--white);
-  height: 1.5px;
-  width: 100%;
+  margin: 4px 0;
+  height: 2px;
+  position: relative;
+  width: 34px;
+}
+
+.span:first-child {
+  margin-top: 0;
+}
+
+.span:last-child {
+  margin-bottom: 0;
+}
+
+.top {
+  animation-fill-mode: forwards;
+  animation-duration: 0.3s;
+  animation-name: rotateLeft;
+}
+
+.middle {
+  display: none;
+}
+
+.bottom {
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-name: rotateRight;
+}
+
+@keyframes rotateLeft {
+  from {
+    transform: rotate(initial) translateY(initial);
+  }
+
+  to {
+    transform: translateY(7px) rotate(45deg);
+  }
+}
+
+@keyframes rotateRight {
+  from {
+    transform: rotate(initial) translateY(initial);
+  }
+
+  to {
+    transform: translateY(-7px) rotate(-45deg);
+  }
 }

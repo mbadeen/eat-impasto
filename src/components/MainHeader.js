@@ -17,8 +17,8 @@ const MainHeader = () => {
       <Link className={link} to="/">
         <img className={img} src={logo} alt="" />
       </Link>
-      <Hamburger onClick={() => setIsOpen(!isOpen)} />
-      {isOpen && <NavMenu />}
+      <Hamburger isOpen={isOpen} onClick={() => setIsOpen(!isOpen)} />
+      <NavMenu isOpen={isOpen} />
     </header>
   );
 };

@@ -5,8 +5,7 @@ import Nav from "./Nav";
 import { container, open, close } from "./NavMenu.module.css";
 
 const NavMenu = ({ isOpen }) => (
-  // <div className={[container, isOpen ? open : close].join(" ")}>
-  <div className={container}>
+  <div className={[container, isOpen ? open : close].join(" ")}>
     <Nav />
   </div>
 );

@@ -19,6 +19,13 @@
 .logo_red {
   height: 100%;
   object-fit: cover;
+  object-position: 2rem 5rem;
   position: absolute;
   top: 0;
+}
+
+@media (min-width: 768px) {
+  .logo_red {
+    object-position: 10rem 5rem;
+  }
 }

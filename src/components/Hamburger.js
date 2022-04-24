@@ -1,12 +1,18 @@
 import PropTypes from "prop-types";
 
-import { button, span, top, middle, bottom } from "./Hamburger.module.css";
+import {
+  button,
+  span,
+  topOpen,
+  bottomOpen,
+  topClose,
+  bottomClose,
+} from "./Hamburger.module.css";
 
 const Hamburger = ({ isOpen, onClick }) => (
   <button className={button} onClick={onClick} type="button">
-    <span className={[span, isOpen ? top : null].join(" ")} />
-    <span className={[span, isOpen ? middle : null].join(" ")} />
-    <span className={[span, isOpen ? bottom : null].join(" ")} />
+    <span className={[span, isOpen ? topOpen : topClose].join(" ")} />
+    <span className={[span, isOpen ? bottomOpen : bottomClose].join(" ")} />
   </button>
 );
 

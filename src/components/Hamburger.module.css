@@ -4,41 +4,40 @@
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  /* gap: 8px;
-  grid-template-rows: 2px 2px 2px; */
+  justify-content: space-around;
   padding: 0;
+  width: 34px;
+  height: 26px;
 }
 
 .span {
   background-color: var(--white);
-  margin: 4px 0;
   height: 2px;
-  position: relative;
-  width: 34px;
+  width: 100%;
 }
 
-.span:first-child {
-  margin-top: 0;
-}
-
-.span:last-child {
-  margin-bottom: 0;
-}
-
-.top {
+.topOpen,
+.bottomOpen,
+.topClose,
+.bottomClose {
   animation-fill-mode: forwards;
   animation-duration: 0.3s;
+}
+
+.topOpen {
   animation-name: rotateLeft;
 }
 
-.middle {
-  display: none;
+.bottomOpen {
+  animation-name: rotateRight;
 }
 
-.bottom {
-  animation-duration: 0.3s;
-  animation-fill-mode: forwards;
-  animation-name: rotateRight;
+.topClose {
+  animation-name: resetTop;
+}
+
+.bottomClose {
+  animation-name: resetBottom;
 }
 
 @keyframes rotateLeft {
@@ -47,7 +46,7 @@
   }
 
   to {
-    transform: translateY(7px) rotate(45deg);
+    transform: translateY(6.5px) rotate(45deg);
   }
 }
 
@@ -57,6 +56,26 @@
   }
 
   to {
-    transform: translateY(-7px) rotate(-45deg);
+    transform: translateY(-6.5px) rotate(-45deg);
+  }
+}
+
+@keyframes resetTop {
+  from {
+    transform: translateY(6.5px) rotate(-180deg);
+  }
+
+  to {
+    transform: rotate(initial) translateY(initial);
+  }
+}
+
+@keyframes resetBottom {
+  from {
+    transform: translateY(-6.5px) rotate(-180deg);
+  }
+
+  to {
+    transform: rotate(initial) translateY(initial);
   }
 }

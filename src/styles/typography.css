@@ -1,7 +1,7 @@
 :root {
   --headings-font: industry-bold, helvetica, arial, sans-serif;
-  --default-font: roboto-regular, helvetica, arial, sans-serif;
-  --alt-font: industry-book, helvetica, arial, sans-serif;
+  /* --default-font: roboto-regular, helvetica, arial, sans-serif; */
+  --default-font: industry-book, helvetica, arial, sans-serif;
 }
 
 h1,
@@ -11,7 +11,9 @@ h3 {
   font-family: var(--headings-font);
   font-weight: 700;
   margin: 0;
-  padding: 2rem 0;
+  /* padding: 2rem 0; */
+  padding: 0;
+  text-transform: uppercase;
 }
 
 h1 {
@@ -40,6 +42,9 @@ textarea {
 }
 
 p {
+  color: var(--white);
   line-height: 1.75rem;
-  padding-bottom: 1.25rem;
+  /* font-family: var(--alt-font); */
+  /* padding-bottom: 1.25rem; */
+  padding: 0;
 }

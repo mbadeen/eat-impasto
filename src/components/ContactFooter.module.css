@@ -1,0 +1,18 @@
+.footer {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.anchor {
+  color: var(--white);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+@media (min-width: 576px) {
+  .footer {
+    padding: 1rem 2rem;
+  }
+}

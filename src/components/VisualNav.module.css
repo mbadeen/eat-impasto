@@ -1,0 +1,43 @@
+/* .figure {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+} */
+
+.anchor {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.img {
+  transition: all 0.5s ease;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+  /* bottom: 0; */
+  padding: 4rem 2rem;
+  position: absolute;
+  width: 100%;
+}
+
+.p {
+  font-family: var(--headings-font);
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--red);
+  /* padding: 2rem 0; */
+}
+
+.anchor:hover .img {
+  transform: scale(1.15);
+}
+
+@media (min-width: 768px) {
+  .anchor {
+    width: 50%;
+  }
+}

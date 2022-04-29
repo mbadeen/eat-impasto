@@ -4,6 +4,7 @@
   background-color: var(--black-01);
   bottom: 0;
   display: flex;
+  flex-direction: column;
   overflow-y: auto;
   position: fixed;
   right: 0;

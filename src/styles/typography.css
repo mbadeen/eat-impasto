@@ -11,7 +11,6 @@ h3 {
   font-family: var(--headings-font);
   font-weight: 700;
   margin: 0;
-  /* padding: 2rem 0; */
   padding: 0;
   text-transform: uppercase;
 }
@@ -39,12 +38,10 @@ textarea {
   font-family: var(--default-font);
   font-size: 1.1rem;
   font-weight: 400;
+  color: var(--white);
 }
 
 p {
-  color: var(--white);
   line-height: 1.75rem;
-  /* font-family: var(--alt-font); */
-  /* padding-bottom: 1.25rem; */
   padding: 0;
 }

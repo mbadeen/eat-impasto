@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: column;
   overflow-y: auto;
+  padding: 1rem;
   position: fixed;
   right: 0;
   top: 4rem;
@@ -21,4 +22,12 @@
 .close {
   visibility: hidden;
   width: 0;
+}
+
+@media (min-width: 576px) {
+  .container,
+  .open,
+  .close {
+    padding: 2rem;
+  }
 }

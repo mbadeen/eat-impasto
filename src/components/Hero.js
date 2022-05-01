@@ -1,7 +1,7 @@
-import banner from "../assets/img/Impasto_Logotype_white.png";
-import logo from "../assets/img/logo-red.png";
-
 import Container from "./Container";
+
+import Banner from "../assets/img/impasto-white.png";
+import Logo from "../assets/img/logo-red.png";
 
 import { header, figure, img, logo_red } from "./Hero.module.css";
 
@@ -11,11 +11,11 @@ const Hero = () => (
       <Container>
         <img
           className={img}
-          src={banner}
+          src={Banner}
           alt="Impasto Italian Inspired Wraps"
         />
       </Container>
-      <img className={logo_red} src={logo} alt="" />
+      <img className={logo_red} src={Logo} alt="" />
     </figure>
   </header>
 );

@@ -13,12 +13,20 @@
 }
 
 .h1 {
-  text-align: center;
+  font-size: 1.5rem;
   padding-bottom: 1rem;
+  text-align: center;
 }
 
 .p {
   margin: auto;
+}
+
+.img {
+  display: block;
+  margin: auto;
+  padding-bottom: 1rem;
+  width: 8rem;
 }
 
 @media (min-width: 768px) {

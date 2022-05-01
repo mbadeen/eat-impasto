@@ -1,18 +1,11 @@
-.footer {
+.section {
   align-items: flex-end;
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
 }
 
 .anchor {
-  color: var(--white);
+  color: var(--black-03);
   text-decoration: none;
   white-space: nowrap;
-}
-
-@media (min-width: 576px) {
-  .footer {
-    padding: 1rem 2rem;
-  }
 }

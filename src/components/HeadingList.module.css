@@ -1,0 +1,22 @@
+.ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  padding-bottom: 1rem;
+}
+
+.li {
+  color: var(--red);
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin: 0 0.75rem;
+}
+
+.li:first-child {
+  list-style: none;
+  margin-left: 0;
+}
+
+.li:last-child {
+  margin-right: 0;
+}

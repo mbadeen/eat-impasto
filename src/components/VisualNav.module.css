@@ -1,9 +1,3 @@
-/* .figure {
-  display: flex;
-  overflow: hidden;
-  position: relative;
-} */
-
 .anchor {
   align-items: center;
   justify-content: center;
@@ -17,23 +11,26 @@
 }
 
 .overlay {
+  display: flex;
   background-color: rgba(0, 0, 0, 0.75);
-  /* bottom: 0; */
-  padding: 4rem 2rem;
+  bottom: 0;
+  padding: 1.5rem;
   position: absolute;
   width: 100%;
 }
 
 .p {
-  font-family: var(--headings-font);
+  border-bottom: 1px solid transparent;
   text-align: center;
-  text-transform: uppercase;
-  color: var(--red);
-  /* padding: 2rem 0; */
+  margin: auto;
 }
 
 .anchor:hover .img {
   transform: scale(1.15);
+}
+
+.anchor:hover .p {
+  border-bottom: 1px solid var(--white);
 }
 
 @media (min-width: 768px) {

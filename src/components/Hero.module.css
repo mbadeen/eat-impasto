@@ -1,14 +1,10 @@
 .header {
   background-color: var(--black-01);
   display: flex;
-  height: calc(100vh - 4rem);
   margin-top: 4rem;
+  padding: 2rem 0;
   position: relative;
   overflow: hidden;
-}
-
-.figure {
-  margin: auto;
 }
 
 .img {
@@ -19,13 +15,8 @@
 .logo_red {
   height: 100%;
   object-fit: cover;
-  object-position: 2rem 5rem;
   position: absolute;
+  right: -15%;
   top: 0;
-}
-
-@media (min-width: 768px) {
-  .logo_red {
-    object-position: 10rem 5rem;
-  }
+  width: 70%;
 }

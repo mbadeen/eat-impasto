@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
 
 import Hero from "./Hero";
-import HeroSecondary from "./HeroSecondary";
 import MainHeader from "./MainHeader";
 import MainFooter from "./MainFooter";
 
@@ -12,9 +11,7 @@ const Layout = ({ pageTitle, children }) => (
     <title>{pageTitle}</title>
     <MainHeader />
     <main className={main}>
-      {/* {pageTitle === "Impasto" ? <Hero /> : <HeroSecondary />}
-       */}
-      <HeroSecondary />
+      <Hero />
       {children}
     </main>
     <MainFooter />

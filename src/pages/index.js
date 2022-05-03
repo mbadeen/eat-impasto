@@ -6,14 +6,14 @@ import GrilledChicken from "../assets/img/grilled-chicken.jpg";
 import Meatball from "../assets/img/meatball.jpg";
 import Spread from "../assets/img/flatlay.jpg";
 
-import { section, article, h1, p } from "./Home.module.css";
+import { section, article } from "./home.module.css";
 
 const Home = () => (
   <Layout pageTitle="Impasto">
     <section className={section}>
       <article className={article}>
-        <h1 className={h1}>Welcome</h1>
-        <p className={p}>
+        <h1>Welcome</h1>
+        <p>
           The Italian term <q>Impasto</q> translates in English to <q>Dough</q>.
           All our dough is made in-house and naturally fermented with wild yeast
           which creates a delicious, unique flavor you will not find elsewhere.
@@ -29,7 +29,7 @@ const Home = () => (
       <VisualNav to="/menu" imgSrc={Meatball} caption="Check out our Menu!" />
       <article className={article}>
         <HeadingList listItems={["Griddled", "Stuffed", "Rolled"]} />
-        <p className={p}>
+        <p>
           Every Impasto is 'Griddled' to a fluffy, golden brown crust, 'Stuffed'
           with the freshest, local ingredients and 'Rolled' into perfection!
         </p>
@@ -38,7 +38,7 @@ const Home = () => (
     <section className={section}>
       <article className={article}>
         <HeadingList listItems={["Bite", "Wow", "Ciao"]} />
-        <p className={p}>
+        <p>
           Find our Impasto Food truck rolling through Detroit or Tampa and have
           a bite with us!
         </p>

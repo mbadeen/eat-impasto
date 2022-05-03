@@ -12,15 +12,15 @@
   padding: 6rem 1rem;
 }
 
-.h1 {
-  font-size: 1.5rem;
-  padding-bottom: 1rem;
-  text-align: center;
-}
+/* .h1 { */
+/* font-size: 1.5rem; */
+/* padding-bottom: 1rem; */
+/* text-align: center; */
+/* } */
 
-.p {
+/* .p {
   margin: auto;
-}
+} */
 
 .img {
   display: block;
@@ -31,7 +31,8 @@
 
 @media (min-width: 768px) {
   .section {
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   .section:nth-child(3) {
@@ -39,7 +40,6 @@
   }
 
   .article {
-    width: 50%;
     padding: 0 2rem;
   }
 }

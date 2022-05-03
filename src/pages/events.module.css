@@ -1,0 +1,30 @@
+.section {
+  padding: 2rem 1rem;
+}
+
+.article {
+  margin: auto;
+  padding: 4rem 0 6rem;
+}
+
+.article > p {
+  text-align: center;
+}
+
+.nav_container {
+  display: grid;
+  gap: 2rem;
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 576px) {
+  .section {
+    padding: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav_container {
+    grid-template-columns: 1fr 1fr;
+  }
+}

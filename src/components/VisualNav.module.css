@@ -33,9 +33,3 @@
 .anchor:hover .p {
   border-bottom: 1px solid var(--white);
 }
-
-@media (min-width: 768px) {
-  .anchor {
-    width: 50%;
-  }
-}

@@ -7,15 +7,24 @@ import { section } from "./SocialMedia.module.css";
 
 const SocialMedia = () => (
   <section className={section}>
-    <a href="https://www.facebook.com/impastotampa/" target="_blank">
+    <a
+      href="https://www.facebook.com/impastotampa/"
+      rel="noreferrer"
+      target="_blank"
+    >
       <FacebookIcon />
     </a>
     {/* <SnapchatIcon /> */}
-    <a href="https://www.instagram.com/impastotampa" target="_blank">
+    <a
+      href="https://www.instagram.com/impastotampa"
+      rel="noreferrer"
+      target="_blank"
+    >
       <InstagramIcon />
     </a>
     <a
       href="https://www.yelp.com/biz/impasto-italian-inspired-wraps-detroit"
+      rel="noreferrer"
       target="_blank"
     >
       <YelpIcon />

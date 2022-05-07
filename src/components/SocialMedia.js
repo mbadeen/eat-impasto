@@ -1,6 +1,6 @@
 import FacebookIcon from "./FacebookIcon";
 import InstagramIcon from "./InstagramIcon";
-// import SnapchatIcon from './SnapchatIcon';
+import SnapchatIcon from "./SnapchatIcon";
 import YelpIcon from "./YelpIcon";
 
 import { section } from "./SocialMedia.module.css";
@@ -14,7 +14,14 @@ const SocialMedia = () => (
     >
       <FacebookIcon />
     </a>
-    {/* <SnapchatIcon /> */}
+    <a
+      href="https://www.snapchat.com/add/eatimpasto"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <SnapchatIcon />
+    </a>
+
     <a
       href="https://www.instagram.com/impastotampa"
       rel="noreferrer"

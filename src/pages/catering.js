@@ -1,9 +1,49 @@
 import Layout from "../components/Layout";
+import Options from "../components/options";
 
-const Catering = () => (
-  <Layout pageTitle="Impasto Catering">
-    <h1>Catering</h1>
-  </Layout>
-);
+import {
+  section,
+  article,
+  options_container,
+  // truck_rental_container,
+} from "./catering.module.css";
+
+const Catering = () => {
+  const baseOptions = [
+    "1 Wrap (choose from 3 options)",
+    "1 Parmesan Truffle Fries",
+  ];
+
+  return (
+    <Layout pageTitle="Impasto Catering">
+      <section className={section}>
+        <article className={article}>
+          <h1>Catering</h1>
+          <p>
+            Here are some of our most popular packages. To see all of our menu
+            and package options, please contact us.
+          </p>
+        </article>
+        <div className={options_container}>
+          <Options title="Good" listOptions={baseOptions} />
+          <Options title="Better" listOptions={[...baseOptions, "1 Drink"]} />
+          <Options
+            title="Best"
+            listOptions={[...baseOptions, "1 House-Made Cannoli", "1 Drink"]}
+          />
+        </div>
+        {/* <article className={article}>
+          <h2>Rent the Truck!</h2>
+          <p>
+            Take your event to another level and rent the Impasto truck! Your
+            guests will be impressed when we roll up (see what we did there)
+            ready to serve your hungry crowd! Customize your menu with one of
+            our popular packages.
+          </p>
+        </article> */}
+      </section>
+    </Layout>
+  );
+};
 
 export default Catering;

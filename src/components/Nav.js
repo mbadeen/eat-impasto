@@ -1,25 +1,30 @@
 import { Link } from "gatsby";
 
-import { link, nav } from "./Nav.module.css";
+import { link, link_active, nav } from "./Nav.module.css";
 
-const Nav = () => (
-  <nav className={nav}>
-    <Link className={link} to="/events">
-      Events
-    </Link>
-    <Link className={link} to="/menu">
-      Menu
-    </Link>
-    <Link className={link} to="/catering">
-      Catering
-    </Link>
-    <Link className={link} to="/faq">
-      FAQ
-    </Link>
-    <Link className={link} to="/contact">
-      Contact
-    </Link>
-  </nav>
-);
+const Nav = () => {
+  const links = [
+    { href: "/events", label: "Events" },
+    { href: "/menu", label: "Menu" },
+    { href: "/catering", label: "Catering" },
+    { href: "/faq", label: "FAQ" },
+    { href: "/contact", label: "Contact" },
+  ];
+
+  return (
+    <nav className={nav}>
+      {links.map(({ href, label }) => (
+        <Link
+          activeClassName={link_active}
+          className={link}
+          to={href}
+          key={href}
+        >
+          {label}
+        </Link>
+      ))}
+    </nav>
+  );
+};
 
 export default Nav;

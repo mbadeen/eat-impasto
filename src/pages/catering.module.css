@@ -8,14 +8,9 @@
   padding: 4rem 0 6rem;
 }
 
-.article > p {
-  text-align: center;
-}
-
-.nav_container {
+.options_container {
   display: grid;
   gap: 2rem;
-  padding-bottom: 4rem;
 }
 
 @media (min-width: 576px) {
@@ -25,7 +20,11 @@
 }
 
 @media (min-width: 768px) {
-  .nav_container {
-    grid-template-columns: 1fr 1fr;
+  .options_container {
+    grid-template-columns: 1fr 1fr 1fr;
   }
+
+  /* .truck_rental_container {
+    grid-template-columns: 1fr 1fr;
+  } */
 }

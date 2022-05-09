@@ -35,12 +35,20 @@ const Catering = () => {
         {/* <article className={article}>
           <h2>Rent the Truck!</h2>
           <p>
-            Take your event to another level and rent the Impasto truck! Your
-            guests will be impressed when we roll up (see what we did there)
-            ready to serve your hungry crowd! Customize your menu with one of
-            our popular packages.
+            Take your event to another level and rent the Impasto truck!
+            Customize your menu with one of our popular packages.
           </p>
         </article> */}
+        {/* <div className={truck_rental_container}>
+          <Options
+            title="Truck Pricing"
+            listOptions={[
+              "$1200 food and beverage minimum required.",
+              "$350 for the first two hours.",
+              "$175 per hour after.",
+            ]}
+          />
+        </div> */}
       </section>
     </Layout>
   );

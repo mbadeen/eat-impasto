@@ -8,9 +8,17 @@
   padding: 4rem 0 6rem;
 }
 
+/* .truck_rental_container {
+  margin: auto;
+  max-width: 30rem;
+  padding-bottom: 6rem;
+} */
+
 .options_container {
   display: grid;
-  gap: 2rem;
+  gap: 1.25rem;
+
+  padding-bottom: 4rem;
 }
 
 @media (min-width: 576px) {

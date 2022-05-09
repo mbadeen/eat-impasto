@@ -1,11 +1,12 @@
 .article {
   background-color: var(--black-04);
+  border-top: 1px solid var(--red);
   box-shadow: 0 1px 8px 0 rgb(0 0 0 / 20%), 0 3px 4px 0 rgb(0 0 0 / 14%),
     0 3px 3px -2px rgb(0 0 0 / 12%);
 }
 
 .header {
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .h3 {
@@ -14,7 +15,7 @@
 }
 
 .ul {
-  padding: 0 1rem 1rem;
+  padding: 0 1.5rem 1.5rem;
 }
 
 .li {

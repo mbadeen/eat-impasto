@@ -1,11 +1,11 @@
 .section {
-  padding: 2rem 1rem;
+  padding: 6rem 1rem;
 }
 
 .article {
   margin: auto;
   max-width: 40rem;
-  padding: 4rem 0 6rem;
+  padding-bottom: 6rem;
 }
 
 .article > p {
@@ -15,12 +15,11 @@
 .nav_container {
   display: grid;
   gap: 2rem;
-  padding-bottom: 4rem;
 }
 
 @media (min-width: 576px) {
   .section {
-    padding: 2rem;
+    padding: 6rem 2rem;
   }
 }
 

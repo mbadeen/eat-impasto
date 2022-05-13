@@ -1,40 +1,13 @@
 .section {
-  padding: 6rem 1rem;
-}
-
-.article {
-  margin: auto;
-  max-width: 40rem;
-  padding-bottom: 6rem;
+  padding: 0 1rem;
 }
 
 .anchor {
   color: var(--black-05);
 }
 
-/* .truck_rental_container {
-  margin: auto;
-  max-width: 30rem;
-  padding-bottom: 6rem;
-} */
-
-.options_container {
-  display: grid;
-  gap: 2rem;
-}
-
 @media (min-width: 576px) {
   .section {
-    padding: 6rem 2rem;
+    padding: 0 2rem;
   }
-}
-
-@media (min-width: 768px) {
-  .options_container {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  /* .truck_rental_container {
-    grid-template-columns: 1fr 1fr;
-  } */
 }

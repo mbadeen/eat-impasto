@@ -2,13 +2,7 @@
   padding: 6rem 1rem;
 }
 
-.article {
-  margin: auto;
-  max-width: 40rem;
-  padding-bottom: 6rem;
-}
-
-.article > p {
+.p {
   text-align: center;
 }
 

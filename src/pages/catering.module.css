@@ -8,6 +8,10 @@
   padding-bottom: 6rem;
 }
 
+.anchor {
+  color: var(--black-05);
+}
+
 /* .truck_rental_container {
   margin: auto;
   max-width: 30rem;

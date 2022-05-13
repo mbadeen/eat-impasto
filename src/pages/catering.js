@@ -1,12 +1,9 @@
-import Layout from "../components/Layout";
-import Options from "../components/options";
+import { Link } from "gatsby";
 
-import {
-  section,
-  article,
-  options_container,
-  // truck_rental_container,
-} from "./catering.module.css";
+import Layout from "../components/Layout";
+import CateringOptionsSection from "../components/CateringOptionsSection";
+
+import { section, article, anchor } from "./catering.module.css";
 
 const Catering = () => {
   const baseOptions = [
@@ -21,17 +18,14 @@ const Catering = () => {
           <h1>Catering</h1>
           <p>
             Here are some of our most popular packages. To see all of our menu
-            and package options, please contact us.
+            and package options, please{" "}
+            <Link className={anchor} to="/contact">
+              contact
+            </Link>{" "}
+            us.
           </p>
         </article>
-        <div className={options_container}>
-          <Options title="Good" listOptions={baseOptions} />
-          <Options title="Better" listOptions={[...baseOptions, "1 Drink"]} />
-          <Options
-            title="Best"
-            listOptions={[...baseOptions, "1 House-Made Cannoli", "1 Drink"]}
-          />
-        </div>
+        <CateringOptionsSection />
         {/* <article className={article}>
           <h2>Rent the Truck!</h2>
           <p>

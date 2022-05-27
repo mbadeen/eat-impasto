@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+import { arrayOf, string } from "prop-types";
 
 import { ul, li } from "./List.module.css";
 
@@ -11,7 +11,7 @@ const List = ({ items }) => (
 );
 
 List.propTypes = {
-  items: PropTypes.arrayOf(PropTypes.string),
+  items: arrayOf(string),
 };
 
 export default List;

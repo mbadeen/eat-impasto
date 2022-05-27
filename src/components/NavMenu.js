@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+import { bool } from "prop-types";
 
 import Nav from "./Nav";
 import Contact from "./Contact";
@@ -13,7 +13,7 @@ const NavMenu = ({ isOpen }) => (
 );
 
 NavMenu.propTypes = {
-  isOpen: PropTypes.bool,
+  isOpen: bool,
 };
 
 export default NavMenu;

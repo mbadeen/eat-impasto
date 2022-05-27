@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+import { arrayOf, string } from "prop-types";
 
 import Card from "./Card";
 import List from "./List";
@@ -15,8 +15,8 @@ const CateringOptionsCard = ({ title, options }) => (
 );
 
 CateringOptionsCard.propTypes = {
-  title: PropTypes.string,
-  options: PropTypes.arrayOf(PropTypes.string),
+  title: string,
+  options: arrayOf(string),
 };
 
 export default CateringOptionsCard;

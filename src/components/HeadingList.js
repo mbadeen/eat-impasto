@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+import { arrayOf, string } from "prop-types";
 
 import { ul, li } from "./HeadingList.module.css";
 
@@ -11,7 +11,7 @@ const HeadingList = ({ listItems }) => (
 );
 
 HeadingList.propTypes = {
-  listItems: PropTypes.arrayOf(PropTypes.string),
+  listItems: arrayOf(string),
 };
 
 export default HeadingList;

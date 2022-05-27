@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+import { string } from "prop-types";
 import { Link } from "gatsby";
 
 import { anchor, img, overlay, p } from "./VisualNav.module.css";
@@ -13,9 +13,9 @@ const VisualNav = ({ caption, imgSrc, to }) => (
 );
 
 VisualNav.propTypes = {
-  caption: PropTypes.string,
-  imgSrc: PropTypes.string,
-  to: PropTypes.string,
+  caption: string,
+  imgSrc: string,
+  to: string,
 };
 
 export default VisualNav;

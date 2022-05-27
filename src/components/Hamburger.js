@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+import { bool, func } from "prop-types";
 
 import {
   button,
@@ -17,8 +17,8 @@ const Hamburger = ({ isOpen, onClick }) => (
 );
 
 Hamburger.propTypes = {
-  isOpen: PropTypes.bool,
-  onClick: PropTypes.func,
+  isOpen: bool,
+  onClick: func,
 };
 
 export default Hamburger;

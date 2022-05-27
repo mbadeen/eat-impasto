@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+import { node, string } from "prop-types";
 
 import Hero from "./Hero";
 import MainHeader from "./MainHeader";
@@ -19,8 +19,8 @@ const Layout = ({ pageTitle, children }) => (
 );
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-  pageTitle: PropTypes.string.isRequired,
+  children: node.isRequired,
+  pageTitle: string.isRequired,
 };
 
 export default Layout;

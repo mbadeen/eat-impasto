@@ -6,7 +6,8 @@
 
 h1,
 h2,
-h3 {
+h3,
+dt {
   color: var(--white);
   font-family: var(--headings-font);
   font-weight: 700;
@@ -26,9 +27,15 @@ h2 {
   padding-bottom: 0.75rem;
 }
 
-h3 {
+h3,
+dt {
   font-size: 1.25rem;
   padding-bottom: 0.5rem;
+}
+
+.dt {
+  text-align: left;
+  text-transform: none;
 }
 
 button,
@@ -38,7 +45,8 @@ li,
 p,
 select,
 span,
-textarea {
+textarea,
+dd {
   font-family: var(--default-font);
   font-size: 1.1rem;
   font-weight: 400;

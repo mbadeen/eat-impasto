@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+import { string } from "prop-types";
 import { anchor, img, overlay, p } from "./VisualNav.module.css";
 
 const VisualNavExternal = ({ caption, imgSrc, to }) => (
@@ -11,9 +11,9 @@ const VisualNavExternal = ({ caption, imgSrc, to }) => (
 );
 
 VisualNavExternal.propTypes = {
-  caption: PropTypes.string,
-  imgSrc: PropTypes.string,
-  to: PropTypes.string,
+  caption: string,
+  imgSrc: string,
+  to: string,
 };
 
 export default VisualNavExternal;

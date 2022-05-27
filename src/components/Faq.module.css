@@ -1,0 +1,20 @@
+.dl {
+  display: grid;
+  gap: 2rem;
+}
+
+.container {
+  border-left: 2px solid var(--red);
+  padding: 0.75rem 0 0.75rem 1.5rem;
+}
+
+.dt {
+  text-align: left;
+  text-transform: none;
+}
+
+@media (min-width: 992px) {
+  .dl {
+    grid-template-columns: 1fr 1fr;
+  }
+}

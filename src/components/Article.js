@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+import { node } from "prop-types";
 
 import { article } from "./Article.module.css";
 
@@ -7,7 +7,7 @@ const Article = ({ children }) => (
 );
 
 Article.propTypes = {
-  children: PropTypes.node,
+  children: node,
 };
 
 export default Article;

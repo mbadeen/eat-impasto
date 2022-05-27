@@ -7,7 +7,7 @@ const Nav = () => {
     { href: "/events", label: "Events" },
     { href: "/menu", label: "Menu" },
     { href: "/catering", label: "Catering" },
-    { href: "/faq", label: "FAQ" },
+    { href: "/faqs", label: "FAQ" },
     { href: "/contact", label: "Contact" },
   ];
 

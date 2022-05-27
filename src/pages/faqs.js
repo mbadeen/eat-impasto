@@ -1,8 +1,10 @@
+import { Link } from "gatsby";
+
 import Article from "../components/Article";
 import Faq from "../components/Faq";
 import Layout from "../components/Layout";
 
-import { section } from "./faqs.module.css";
+import { anchor, section } from "./faqs.module.css";
 
 const Faqs = () => (
   <Layout pageTitle="Impasto FAQ">
@@ -10,8 +12,11 @@ const Faqs = () => (
       <Article>
         <h1>Frequently Asked Questions</h1>
         <p>
-          Have questions? Checkout some of our FAQs below and please contact us
-          if you do not find the information you are looking for!
+          Have questions? Checkout some of our FAQs below and please{" "}
+          <Link className={anchor} to="/contact">
+            contact
+          </Link>{" "}
+          us if you do not find the information you are looking for!
         </p>
       </Article>
       <Faq

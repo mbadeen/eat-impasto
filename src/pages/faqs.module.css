@@ -2,6 +2,10 @@
   padding: 0 1rem 6rem;
 }
 
+.anchor {
+  color: var(--black-05);
+}
+
 @media (min-width: 576px) {
   .section {
     padding: 0 2rem 6rem;
